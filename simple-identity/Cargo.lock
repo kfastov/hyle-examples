@@ -460,8 +460,8 @@ dependencies = [
 
 [[package]]
 name = "bonsai-runner"
-version = "0.6.0"
-source = "git+https://github.com/hyle-org/hyle?tag=v0.7.1#015afdc711269271ebf6e113af5422b0a63426e8"
+version = "0.7.2"
+source = "git+https://github.com/hyle-org/hyle?branch=main#9be0dd9f06faa0215d02dc3dd26d38c546a52a80"
 dependencies = [
  "anyhow",
  "axum",
@@ -493,9 +493,9 @@ dependencies = [
 
 [[package]]
 name = "borsh"
-version = "1.5.4"
+version = "1.5.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9fb65153674e51d3a42c8f27b05b9508cea85edfaade8aa46bc8fc18cecdfef3"
+checksum = "5430e3be710b68d984d1391c854eb431a9d548640711faa54eecb1df93db91cc"
 dependencies = [
  "borsh-derive",
  "cfg_aliases",
@@ -503,9 +503,9 @@ dependencies = [
 
 [[package]]
 name = "borsh-derive"
-version = "1.5.4"
+version = "1.5.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a396e17ad94059c650db3d253bb6e25927f1eb462eede7e7a153bb6e75dce0a7"
+checksum = "f8b668d39970baad5356d7c83a86fee3a539e6f93bf6764c97368243e17a0487"
 dependencies = [
  "once_cell",
  "proc-macro-crate",
@@ -663,8 +663,8 @@ checksum = "f46ad14479a25103f283c0f10005961cf086d8dc42205bb44c46ac563475dca6"
 
 [[package]]
 name = "client-sdk"
-version = "0.6.0"
-source = "git+https://github.com/hyle-org/hyle?tag=v0.7.1#015afdc711269271ebf6e113af5422b0a63426e8"
+version = "0.7.2"
+source = "git+https://github.com/hyle-org/hyle?branch=main#9be0dd9f06faa0215d02dc3dd26d38c546a52a80"
 dependencies = [
  "anyhow",
  "bincode 2.0.0-rc.3",
@@ -1226,8 +1226,8 @@ checksum = "df3b46402a9d5adb4c86a0cf463f42e19994e3ee891101b1841f30a545cb49a9"
 
 [[package]]
 name = "hyle-contract-sdk"
-version = "0.6.0"
-source = "git+https://github.com/hyle-org/hyle?tag=v0.7.1#015afdc711269271ebf6e113af5422b0a63426e8"
+version = "0.7.2"
+source = "git+https://github.com/hyle-org/hyle?branch=main#9be0dd9f06faa0215d02dc3dd26d38c546a52a80"
 dependencies = [
  "bincode 2.0.0-rc.3",
  "hyle-model",
@@ -1236,8 +1236,8 @@ dependencies = [
 
 [[package]]
 name = "hyle-model"
-version = "0.6.0"
-source = "git+https://github.com/hyle-org/hyle?tag=v0.7.1#015afdc711269271ebf6e113af5422b0a63426e8"
+version = "0.7.2"
+source = "git+https://github.com/hyle-org/hyle?branch=main#9be0dd9f06faa0215d02dc3dd26d38c546a52a80"
 dependencies = [
  "anyhow",
  "base64",
