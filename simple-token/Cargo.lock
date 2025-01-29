@@ -460,8 +460,8 @@ dependencies = [
 
 [[package]]
 name = "bonsai-runner"
-version = "0.7.2"
-source = "git+https://github.com/hyle-org/hyle?tag=v0.8.0#88ba05b5da901e13ff2fb3620c23a64f8cc44093"
+version = "0.8.0"
+source = "git+https://github.com/hyle-org/hyle?branch=main#2c588270dc11d259140083fad76af52659a8e980"
 dependencies = [
  "anyhow",
  "axum",
@@ -663,8 +663,8 @@ checksum = "f46ad14479a25103f283c0f10005961cf086d8dc42205bb44c46ac563475dca6"
 
 [[package]]
 name = "client-sdk"
-version = "0.7.2"
-source = "git+https://github.com/hyle-org/hyle?tag=v0.8.0#88ba05b5da901e13ff2fb3620c23a64f8cc44093"
+version = "0.8.0"
+source = "git+https://github.com/hyle-org/hyle?branch=main#2c588270dc11d259140083fad76af52659a8e980"
 dependencies = [
  "anyhow",
  "bincode 2.0.0-rc.3",
@@ -1224,8 +1224,8 @@ checksum = "df3b46402a9d5adb4c86a0cf463f42e19994e3ee891101b1841f30a545cb49a9"
 
 [[package]]
 name = "hyle-contract-sdk"
-version = "0.7.2"
-source = "git+https://github.com/hyle-org/hyle?tag=v0.8.0#88ba05b5da901e13ff2fb3620c23a64f8cc44093"
+version = "0.8.0"
+source = "git+https://github.com/hyle-org/hyle?branch=main#2c588270dc11d259140083fad76af52659a8e980"
 dependencies = [
  "bincode 2.0.0-rc.3",
  "hyle-model",
@@ -1234,8 +1234,8 @@ dependencies = [
 
 [[package]]
 name = "hyle-model"
-version = "0.7.2"
-source = "git+https://github.com/hyle-org/hyle?tag=v0.8.0#88ba05b5da901e13ff2fb3620c23a64f8cc44093"
+version = "0.8.0"
+source = "git+https://github.com/hyle-org/hyle?branch=main#2c588270dc11d259140083fad76af52659a8e980"
 dependencies = [
  "anyhow",
  "base64",

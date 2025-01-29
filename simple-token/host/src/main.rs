@@ -77,7 +77,7 @@ async fn main() {
                     state_digest: initial_state.as_digest(),
                     contract_name: contract_name.clone().into(),
                 }
-                .as_blob("hyle".into(), None, None)], // TODO what's None, None?
+                .as_blob("hyle".into(), None, None)],
             };
             let res = client
                 .send_tx_blob(&register_tx)
