@@ -69,7 +69,7 @@ async fn main() {
 
             // Send the transaction to register the contract
             let register_tx = BlobTransaction {
-                identity: Identity::new("hyle.hyle"), // TODO
+                identity: Identity::new("examples.hyle"),
                 blobs: vec![
                     RegisterContractAction {
                     verifier: "risc0".into(),
